@@ -117,7 +117,7 @@
     "lru-cache": "^10.0.1",
     "minimist": "^1.2.8",
     "mqtt": "^5.2.0",
-    "mqtt-packet": "^9.0.0",
+    "mqtt-packet": "./lib/mqtt-packet/",
     "number-allocator": "^1.0.14",
     "readable-stream": "^4.4.2",
     "reinterval": "^1.1.0",

@@ -1,3 +1,21 @@
+## 修改 `mqtt-packet` 源， 指向本地 package.
+
+> 停止 `header flag bits`  的检查, 所以要使用本地修改后的 [`mqtt-packet`](https://github.com/ghzjtian/mqtt-packet) 仓库代码.
+
+* local
+```
+"mqtt-packet": "^9.0.0",
+```
+
+* remote 
+```
+    "mqtt-packet": "./lib/mqtt-packet/",
+```
+
+***
+***
+***
+
 # ![mqtt.js](https://raw.githubusercontent.com/mqttjs/MQTT.js/137ee0e3940c1f01049a30248c70f24dc6e6f829/MQTT.js.png)
 
 ![Github Test Status](https://github.com/mqttjs/MQTT.js/workflows/MQTT.js%20CI/badge.svg) [![codecov](https://codecov.io/gh/mqttjs/MQTT.js/branch/master/graph/badge.svg)](https://codecov.io/gh/mqttjs/MQTT.js)
@@ -945,3 +963,7 @@ If you would like to support MQTT.js, please consider sponsoring the author and 
 ## License
 
 MIT
+
+
+
+
